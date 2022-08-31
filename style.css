@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 94vh;
+    margin: 20px auto;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.container .avatar{
+    max-width: 20%;
+    margin: 20px auto;
+}
+
+.container .avatar img{
+    width: 100%;
+}
+
+.container .user{
+    max-width: 90%;
+    margin: auto;
+}
+
+.container .user h1{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.container .cx-links{
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+.container .cx-links .link{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .1);
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.container .cx-links .link .icon{
+    margin: 10px;
+    padding: 0px;
+}
+
+.container .cx-links .link .icon span{
+    padding: 8px 0px 0px;
+    margin: 0px;
+}
+
+.container .cx-links .link .descricao{
+    padding: 0px;
+}
+
+.container .cx-links .link .descricao a{
+    padding: 0px;
+}
+
+
+
+.working{
+    text-align: center;
+    margin-top: 120px;
+}
