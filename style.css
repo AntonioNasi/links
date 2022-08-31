@@ -10,9 +10,9 @@ body{
 
 .container{
     width: 90%;
-    height: 94vh;
+    height: 100%;
     margin: 20px auto;
-    border: solid 1px black;
+    border: solid 1px #d91416;
     border-radius: 15px;
 }
 
