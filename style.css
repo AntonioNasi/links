@@ -5,71 +5,65 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/sepia-plasterboard-texture_95678-405.jpg);
 }
 
-.container{
-    width: 90%;
-    height: 100%;
-    margin: 20px auto;
-    border: solid 1px #d91416;
-    border-radius: 15px;
-}
-
-.container .avatar{
-    max-width: 20%;
-    margin: 20px auto;
-}
-
-.container .avatar img{
-    width: 100%;
-}
-
-.container .user{
-    max-width: 90%;
+header{
+    max-width: 600px;
     margin: auto;
+    padding: 25px 0px;
 }
 
-.container .user h1{
-    font-size: 18px;
+header .cx-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin: 0px auto 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+header .cx-img img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+header .name h1{
     text-align: center;
     font-weight: 900;
+    color: rgba(0, 0, 0, 0.7);
 }
 
-.container .cx-links{
-    width: 90%;
-    margin: 20px auto 0px;
+.links{
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
 }
 
-.container .cx-links .link{
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, .1);
-    margin: 10px 0px;
-    border-radius: 10px;
+.links .cx-links{
+    display: ;
 }
 
-.container .cx-links .link .icon{
-    margin: 10px;
-    padding: 0px;
-}
-
-.container .cx-links .link .icon span{
-    padding: 8px 0px 0px;
-    margin: 0px;
-}
-
-.container .cx-links .link .descricao{
-    padding: 0px;
-}
-
-.container .cx-links .link .descricao a{
-    padding: 0px;
-}
-
-
-
-.working{
+.links .cx-links ul li{
+    list-style: none;
     text-align: center;
-    margin-top: 120px;
+}
+
+.links .cx-links ul li a{
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: block;
+}
+
+.links .cx-links ul li a:hover{
+    border: solid 1px rgba(0, 0, 0, 0.5);
 }
